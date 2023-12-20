@@ -1,0 +1,4 @@
+﻿  DesktopBack.cpp
+C:\Users\yd\Documents\C++Projects\DesktopBack\DesktopBack\DesktopBack.cpp(206,13): error C2664: “HWND CreateDialogParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)”: 无法将参数 4 从“LRESULT (__cdecl *)(HWND,UINT,WPARAM,LPARAM)”转换为“DLGPROC”
+C:\Users\yd\Documents\C++Projects\DesktopBack\DesktopBack\DesktopBack.cpp(206,13): message : 在匹配目标类型的范围内没有具有该名称的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4997,1): message : 参见“CreateDialogParamW”的声明

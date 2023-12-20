@@ -1,0 +1,4 @@
+﻿  DesktopBack.cpp
+C:\Users\yd\Documents\C++Projects\DesktopBack\DesktopBack\DesktopBack.cpp(201,13): error C2664: “HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)”: 无法将参数 3 从“INT_PTR (__cdecl *)(HWND,UINT,WPARAM,LPARAM)”转换为“HWND”
+C:\Users\yd\Documents\C++Projects\DesktopBack\DesktopBack\DesktopBack.cpp(201,13): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4988,1): message : 参见“CreateDialogParamA”的声明

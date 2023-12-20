@@ -1,0 +1,117 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HELP_DIALOG DIALOGEX 0, 0, 339, 197
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "帮助"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "命令行帮助:\n这个应用程序用于实现视频动态壁纸.\n你必须创建或者修改C:\\Users\\用户名\\AppData\\StudyAll\\DesktopBack\\videoList.list\n       成一定格式来无需gui运行本应用\n结构为     :\n第一行     :视频路径的绝对地址\n第二行     :FFPlay的地址\n其他        :额外设置,用空格分隔这些选项,例如:""optionA optionB optionC""\n选项        :\nmute      :静音\nnoVideo :没有",IDC_STATIC,7,7,274,107
+    PUSHBUTTON      "选择视频文件",IDC_CHOOSE_VD,7,122,81,16,0,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "选择播放的应用程序",IDC_CHOOSE_PL,7,142,81,15,0,WS_EX_ACCEPTFILES
+    EDITTEXT        ID_VDPTH,96,123,220,14,ES_AUTOHSCROLL | ES_READONLY,WS_EX_ACCEPTFILES
+    LTEXT           "快速创建小助手：",IDC_STATIC,7,108,65,8
+    EDITTEXT        ID_PLPTH,96,143,220,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "应用",IDC_APPLY,287,181,50,14
+    CONTROL         "无字幕",IDC_NS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,184,40,10
+    CONTROL         "静音",IDC_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,172,32,10
+    CONTROL         "无视频",IDC_NV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,172,40,10
+    LTEXT           "其他选项：",IDC_STATIC,7,162,41,8
+    CONTROL         "",IDC_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,119,172,123,10
+    LTEXT           "音量",IDC_STATIC,102,173,17,8
+    LTEXT           "0",IDC_VSH,246,172,29,8
+    LTEXT           "小助手：不需要出错也可以进入gui哦！只需要随便拖一个文件到应用程序上即可(^_^)！",IDC_STATIC,7,97,269,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_HELP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_HELP_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
